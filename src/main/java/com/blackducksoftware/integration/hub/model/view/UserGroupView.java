@@ -27,20 +27,15 @@ import com.blackducksoftware.integration.hub.model.HubView;
 import com.blackducksoftware.integration.hub.model.enumeration.UserGroupCreatedFromEnum;
 import com.google.gson.annotations.SerializedName;
 
-public class UserView extends HubView {
-    public String userName;
-
-    public String firstName;
-
-    public String lastName;
-
-    public String email;
-
-    public UserGroupCreatedFromEnum type;
-
+public class UserGroupView extends HubView {
     public Boolean active;
 
-    @SerializedName("user")
-    public String userUrl;
+    public UserGroupCreatedFromEnum createdFrom;
 
+    public String externalName;
+
+    public String name;
+
+    @SerializedName("userGroup")
+    public String userGroupUrl;
 }
