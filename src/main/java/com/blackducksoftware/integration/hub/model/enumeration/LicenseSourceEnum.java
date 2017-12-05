@@ -21,19 +21,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.blackducksoftware.integration.hub.model.view;
+package com.blackducksoftware.integration.hub.model.enumeration;
 
-import com.blackducksoftware.integration.hub.model.HubView;
-import com.blackducksoftware.integration.hub.model.enumeration.LicenseCodeSharingEnum;
-import com.blackducksoftware.integration.hub.model.enumeration.LicenseOwnershipEnum;
-import com.blackducksoftware.integration.hub.model.enumeration.LicenseSourceEnum;
-
-public class LicenseView extends HubView {
-    public LicenseCodeSharingEnum codeSharing;
-
-    public String name;
-
-    public LicenseOwnershipEnum ownership;
-
-    public LicenseSourceEnum licenseSource;
+public enum LicenseSourceEnum {
+    KB,
+    CUSTOM,
+    UNKNOWN;
 }
