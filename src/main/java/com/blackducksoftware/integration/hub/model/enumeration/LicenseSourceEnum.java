@@ -25,6 +25,5 @@ package com.blackducksoftware.integration.hub.model.enumeration;
 
 public enum LicenseSourceEnum {
     KB,
-    CUSTOM,
-    UNKNOWN;
+    CUSTOM;
 }
