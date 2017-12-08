@@ -21,11 +21,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.blackducksoftware.integration.hub.model.response;
+package com.blackducksoftware.integration.hub.model.view;
 
-import com.blackducksoftware.integration.hub.model.HubResponse;
+import com.blackducksoftware.integration.hub.model.HubView;
 
-public class ComponentSearchResultResponse extends HubResponse {
+public class ComponentSearchResultView extends HubView {
     // ****URL**** //
     public String component;
 
