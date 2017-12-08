@@ -24,17 +24,18 @@
 package com.blackducksoftware.integration.hub.model.view;
 
 import com.blackducksoftware.integration.hub.model.HubView;
+import com.google.gson.annotations.SerializedName;
 
 public class ComponentSearchResultView extends HubView {
-    // ****URL**** //
-    public String component;
+    @SerializedName("component")
+    public String componentUrl;
 
     public String componentName;
 
     public String originId;
 
-    // ****URL**** //
-    public String version;
+    @SerializedName("version")
+    public String componentVersionUrl;
 
     public String versionName;
 
