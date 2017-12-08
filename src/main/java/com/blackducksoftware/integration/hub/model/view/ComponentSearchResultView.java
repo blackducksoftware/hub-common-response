@@ -21,20 +21,21 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.blackducksoftware.integration.hub.model.response;
+package com.blackducksoftware.integration.hub.model.view;
 
-import com.blackducksoftware.integration.hub.model.HubResponse;
+import com.blackducksoftware.integration.hub.model.HubView;
+import com.google.gson.annotations.SerializedName;
 
-public class ComponentSearchResultResponse extends HubResponse {
-    // ****URL**** //
-    public String component;
+public class ComponentSearchResultView extends HubView {
+    @SerializedName("component")
+    public String componentUrl;
 
     public String componentName;
 
     public String originId;
 
-    // ****URL**** //
-    public String version;
+    @SerializedName("version")
+    public String componentVersionUrl;
 
     public String versionName;
 
