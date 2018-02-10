@@ -1,4 +1,7 @@
-## Overview ## 
+## Overview ##
+
+*Update:* This library is no longer supported.  This functionality has been replaced by [hub-common-api](https://github.com/blackducksoftware/hub-common-api).
+
 The hub-common-response library supplies model objects for the hub rest Api's 
 
 ## Build ## 
